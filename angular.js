@@ -3,7 +3,7 @@ angular.module("myApp", []);
 angular
 	.module("myApp")
 	.controller("myController", ['$scope', function($scope) {
-   $scope.days=[];
+   // $scope.days=[];
 
 		$scope.green=false;
 		$scope.red=true;
@@ -30,14 +30,14 @@ angular
 			$scope.extraBook = ''
 		}
 
-		$scope.days = [
-	{"Day": 'Monday'},
-	{"Day": 'Tuesday'},
-	{"Day": 'Wednesday'},
-	{"Day": 'Thursday'},
-	{"Day": 'Friday'},
-	{"Day": 'Saturday'},
-	{"Day": 'Sunday'}
-];
+// 		$scope.days = [
+// 	{"Day": 'Monday'},
+// 	{"Day": 'Tuesday'},
+// 	{"Day": 'Wednesday'},
+// 	{"Day": 'Thursday'},
+// 	{"Day": 'Friday'},
+// 	{"Day": 'Saturday'},
+// 	{"Day": 'Sunday'}
+// ];
 	}])
 
